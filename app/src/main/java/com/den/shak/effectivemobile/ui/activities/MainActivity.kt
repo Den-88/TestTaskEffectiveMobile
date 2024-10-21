@@ -11,6 +11,7 @@ import com.den.shak.effectivemobile.R
 import com.den.shak.effectivemobile.ui.fragments.FavoriteFragment
 import com.den.shak.effectivemobile.ui.fragments.HomeFragment
 import com.den.shak.effectivemobile.ui.fragments.PlaceholderFragment
+import com.den.shak.effectivemobile.ui.fragments.PlaceholderFragmentWithBack
 import com.den.shak.effectivemobile.ui.utils.OfferViewUtils
 import com.den.shak.effectivemobile.viewmodel.HomeViewModel
 import com.google.android.material.badge.BadgeDrawable
@@ -62,7 +63,13 @@ class MainActivity : AppCompatActivity() {
 
         onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
-                moveTaskToBack(true)
+                if (supportFragmentManager.findFragmentById(R.id.fragment_container) !is PlaceholderFragmentWithBack) {
+                    moveTaskToBack(true)
+                } else {
+                    supportFragmentManager.beginTransaction()
+                        .replace(R.id.fragment_container, HomeFragment())
+                        .commit()
+                }
             }
         })
     }
