@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Effective Mobile</string>
+
+    <string name="placeholder_text">Заглушка</string>
+    <string name="nav_menu_search">Поиск</string>
+    <string name="nav_menu_favorites">Избранное</string>
+    <string name="nav_menu_responses">Отклики</string>
+    <string name="nav_menu_messages">Сообщения</string>
+    <string name="nav_menu_profile">Профиль</string>
+    <string name="fragment_login_singin">Вход в личный кабинет</string>
+    <string name="fragment_login_search_work">Поиск работы</string>
+    <string name="fragment_login_continue">Продолжить</string>
+    <string name="fragment_login_singin_with_password">Войти с паролем</string>
+    <string name="fragment_login_search_workers">Поиск сотрудников</string>
+    <string name="fragment_login_search_worker_description">Размещение вакансий и доступ к базе резюме</string>
+    <string name="fragment_login_i_search_button">Я ищу сотрудников</string>
+    <string name="fragment_login_confirm_text_send_code">Отправили код на example@mail.ru</string>
+    <string name="fragment_login_confirm_text_send_code_description">Напишите его, чтобы подтвердить, что это вы, а не кто-то другой входит в личный кабинет</string>
+    <string name="fragment_login_confirm_button">Подтвердить</string>
+    <string name="fragment_login_confirm_text_hint">✱</string>
+    <string name="fragment_favorite_favorite">Избранное</string>
+    <string name="fragment_home_search_hint">Должность, ключевые слова</string>
+    <string name="fragment_home_compliance">По соответствию</string>
+    <string name="fragment_home_title">Вакансии для вас</string>
+    <string name="item_vacancy_button">Откликнуться</string>
+    <string name="vacancy_view_utils_hint_all_vacansies">Должность по подходящим вакан...</string>
+    <string name="vacancy_view_utils_hint_preview_vacansies">Должность, ключевые слова</string>
+
+</resources>

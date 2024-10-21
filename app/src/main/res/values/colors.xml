@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF4CB24E</color>
+    <color name="green">#FF4CB24E</color>
+    <color name="card">#FF222325</color>
+    <color name="text_layout">#FF313234</color>
+    <color name="text_grey">#FF858688</color>
+    <color name="blue_button">#FF2B7EFE</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#FF0C0C0C</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="selected_color">#FF2B7EFE</color>
+    <color name="unselected_color">#9F9F9F</color>
+</resources>

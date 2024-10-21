@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Effective_Mobile.data.test" target="11" />
+      <module name="Effective_Mobile.del" target="11" />
+      <module name="Effective_Mobile.del.main" target="11" />
+      <module name="Effective_Mobile.del.test" target="11" />
+      <module name="Effective_Mobile.domain.test" target="11" />
+      <module name="Effective_Mobile.domain2" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
